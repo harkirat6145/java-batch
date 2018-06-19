@@ -15,7 +15,7 @@ void shape(){
 public class abstract_class{
 public static void main(String[] abc){
 Data z=new Data();
-z.get_data(2,3);
+z.get_data(3,4);
 z.shape();
 }
 }
