@@ -1,8 +1,13 @@
-import java.util.scanner;
-class Vowel{
-public static void main(String[] arry)
+import java.util.Scanner;
+class Vovel{
+public static void main(String[] abc){
+Scanner  sc=new Scanner(System.in);
+String a=sc.nextLine();
+StringBuffer b=new StringBuffer();
+for (int i=0;i<a.length();i++){
+if((a.charAt(i)!='A') && (a.charAt(i)!='E') && (a.charAt(i)!='I') && (a.charAt(i)!='O') && (a.charAt(i)!='U') )
 {
-int j=0;
-Scanner in=new Scanner(system.in); 
-String r=in.nextline();
-for(int i=0;i<)
+b.append(a.charAt(i));
+}}
+System.out.println(b);
+}}
